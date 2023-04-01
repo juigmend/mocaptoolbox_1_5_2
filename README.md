@@ -18,10 +18,10 @@ Examples:
 
 More information: 
 
-![Mendoza Garay, J. I., Burger, B., & Luck, G. (2022). Exploring relations between Big Five personality traits and musical emotions embodied in spontaneous dance. Psychology of Music, OnlineFirst. https://doi.org/10.1177/03057356221135355 ](https://journals.sagepub.com/doi/full/10.1177/03057356221135355)
+Mendoza Garay, J. I., Burger, B., & Luck, G. (2022). Exploring relations between Big Five personality traits and musical emotions embodied in spontaneous dance. Psychology of Music, OnlineFirst. https://doi.org/10.1177/03057356221135355
 
 https://journals.sagepub.com/doi/full/10.1177/03057356221135355
 
 http://urn.fi/URN:NBN:fi:jyu-202211295415
 
-Mendoza Garay, J. I., Burger, B., & Luck, G. (2022). Exploring relations between Big Five personality traits and musical emotions embodied in spontaneous dance. Psychology of Music, OnlineFirst. https://doi.org/10.1177/03057356221135355
+
