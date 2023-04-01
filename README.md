@@ -16,6 +16,7 @@ Examples:
 * mclocal.m
 * mcorigin.m
 * mcrecovery vs. mcfillgaps:
+
 <img src="https://gitlab.jyu.fi/juigmend/matlab-miscellaneous/-/raw/main/mcrecovery_vs_mcfillgaps/Full_P07_s4_allgaps.gif" width="160" height="120"/>
 <img src="https://gitlab.jyu.fi/juigmend/matlab-miscellaneous/-/raw/main/mcrecovery_vs_mcfillgaps/Full_P07_s4_gapsfilled.gif" width="160" height="120"/>
 <img src="https://gitlab.jyu.fi/juigmend/matlab-miscellaneous/-/raw/main/mcrecovery_vs_mcfillgaps/gaps_P07_s4.gif" width="160" height="120"/>
