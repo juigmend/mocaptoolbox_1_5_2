@@ -19,6 +19,7 @@ function par = mcplotframe(d, n, p, proj)
 %                 Images in 'tiff' format will have 300 dpi of resolution       (JIMG 2018/11/2)
 % p.trl = 'full'  will trace the full data sequence                             (JIMG 2018/11/2)
 % p.child = 1     plot to existing axis, useful for subplots                    (JIMG 2022/12/4)
+% p.output = []   do not save figure or video                                   (JIMG 2022/12/5)
 %
 % output
 % par: animpar structure used for plotting the frames (if color strings were used, they will converted to RGB triplets)
@@ -399,10 +400,12 @@ end                                     % (JIMG 2020/7/9)
 % set of markers that look exactly like the videos with all markers
 % if p.getparams==1                                 % commented (JIMG 2018/11/4)
     par=p;
+    %disp(par)  % (JIMG 2023/sep/7)
     par = orderfields(par, {'type','scrsize','limits','az','el','msize','colors','markercolors',...
     'conncolors','tracecolors','numbercolors','cwidth','twidth','conn','conn2','trm','trl',...
     'showmnum','numbers','showfnum','animate','fps','output','videoformat','createframes',... % (JIMG 2018/11/4)
-    'getparams','perspective','pers','frames','frameformat','child'});                        % (JIMG 2022/12/4)
+    'getparams','perspective','pers','numsize','frames','frameformat','child'});              % (JIMG 2023/sep/7)
+%    'getparams','perspective','pers','frames','frameformat','child'});                       % (JIMG 2022/12/4)
 %     'showmnum','numbers','showfnum','animate','fps','output','videoformat','createframes','getparams','perspective','pers'});  % commented (JIMG 2018/11/4)
 if p.getparams==1                                             % (JIMG 2018/11/4) 
     return
@@ -564,7 +567,7 @@ for k=mloop_laps % main loop                                   (JIMG 2018/10/25)
         else
             writeVideo(movObj,getframe(gcf)); %BB_NEW_20140212 for VideoWriter
         end
-    else
+    elseif ~isempty(p.output)                                              % (JIMG 2022/12/5)
         fn = [p.output,fext];
         if strcmp(p.frameformat,'fig') || strcmp(p.frameformat,'tiff')     % (JIMG 2020/7/9)
             figh = get(gca,'Parent');                                      % (JIMG 2020/7/9)
