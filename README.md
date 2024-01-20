@@ -16,6 +16,15 @@ Get the latest canonical version of the MoCap Toolbox [here: https://www.jyu.fi/
 * mcreduce.m
 * mclocal.m
 * mcorigin.m
+  
+
+#### Study using improved functions: 
+
+Mendoza Garay, J. I., Burger, B., & Luck, G. (2022). Exploring relations between Big Five personality traits and musical emotions embodied in spontaneous dance. <i>Psychology of Music, 51</i>(4). https://doi.org/10.1177/03057356221135355
+<!--
+https://journals.sagepub.com/doi/full/10.1177/03057356221135355
+http://urn.fi/URN:NBN:fi:jyu-202211295415
+-->
 
 ---
 
@@ -42,16 +51,4 @@ Get the latest canonical version of the MoCap Toolbox [here: https://www.jyu.fi/
     <th><img src="https://github.com/juigmend/matlab-miscellaneous/raw/main/mcrecovery_vs_mcfillgaps/mcrecovery_P07_s4.gif"></th>
   </tr>
  </table>
-
----
-
-#### Study using modified functions: 
-
-Mendoza Garay, J. I., Burger, B., & Luck, G. (2022). Exploring relations between Big Five personality traits and musical emotions embodied in spontaneous dance. <i>Psychology of Music, 51</i>(4). https://doi.org/10.1177/03057356221135355
-
-<!--
-https://journals.sagepub.com/doi/full/10.1177/03057356221135355
-
-http://urn.fi/URN:NBN:fi:jyu-202211295415
--->
 
